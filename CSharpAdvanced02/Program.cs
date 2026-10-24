@@ -34,6 +34,21 @@ namespace CSharpAdvanced02
             //PrintProducts(clothingUnder100); 
             #endregion
 
+            #region Custom Report Generator
+            //ProductCatalog productCatalog = new ProductCatalog();
+            //List<Product> products = productCatalog.GetProducts();
+
+            //Console.WriteLine("--- Short Report ---");
+            //Action<Product> shortReport = ReportGenerator.PrintShortReport;
+            //ReportGenerator.GenerateReport(products, shortReport);
+
+            //Console.WriteLine("\n========================================\n");
+
+            //Console.WriteLine("--- Long Report ---");
+            //Action<Product> longReport = ReportGenerator.PrintLongReport;
+            //ReportGenerator.GenerateReport(products, longReport);
+            #endregion
+
         }
         public static void PrintProducts(List<Product> products)
         {
