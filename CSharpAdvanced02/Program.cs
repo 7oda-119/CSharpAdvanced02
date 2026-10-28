@@ -6,7 +6,7 @@ namespace CSharpAdvanced02
     {
         static void Main(string[] args)
         {
-            #region Smart Product Search
+            #region Task 01 : Smart Product Search
             //ProductCatalog productCatalog = new ProductCatalog();
             //List<Product> products = productCatalog.GetProducts();
 
@@ -31,10 +31,11 @@ namespace CSharpAdvanced02
             //ProductFilterDelegate clothingUnder100Filter = ProductSearch.IsCheapClothing;
             //List<Product> clothingUnder100 = ProductSearch.SearchProducts(products, clothingUnder100Filter);
             //Console.WriteLine("--- Clothing Under $100 ---");
-            //PrintProducts(clothingUnder100); 
+            //PrintProducts(clothingUnder100);
             #endregion
 
-            #region Custom Report Generator
+            #region Task 03 : Custom Report Generator
+            #region 3.1  Print Reports
             //ProductCatalog productCatalog = new ProductCatalog();
             //List<Product> products = productCatalog.GetProducts();
 
@@ -47,6 +48,7 @@ namespace CSharpAdvanced02
             //Console.WriteLine("--- Long Report ---");
             //Action<Product> longReport = ReportGenerator.PrintLongReport;
             //ReportGenerator.GenerateReport(products, longReport);
+            #endregion
             #endregion
 
         }
